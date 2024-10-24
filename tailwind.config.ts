@@ -7,7 +7,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                "bangers": "Bangers",
+                "bangers": ["Bangers", "system-ui"],
             }
         },
     },
