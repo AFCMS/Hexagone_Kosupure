@@ -2,10 +2,10 @@
 
 Fait avec:
 
-- Vite
-- TailwindCSS
-- DaisyUI
-- Heroicons (pour le burger menu)
+- [Vite](https://vite.dev)
+- [TailwindCSS](https://tailwindcss.com)
+- [DaisyUI](https://daisyui.com)
+- [Heroicons](https://heroicons.com) (pour le burger menu)
 
 ```shell
 pnpm install
