@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="/assets/images/kosupure.ico" rel="icon"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Kosupure</title>
+</head>
+<body>
+<div class="bg-no-repeat bg-cover bg-[url('assets/images/landscape.jpeg')] min-h-screen">
+    <header class="w-full p-4">
+        <div class="flex items-center section-glassmorphism m-4">
+            <div class="flex-none navbar-start">
+                <img alt="Kosupure" class="h-32" src="/assets/images/kosupure.png">
+            </div>
+            <div class="flex-none navbar-end">
+                <div class="md:hidden dropdown flex justify-end mr-4">
+                    <div class="btn fancyBorder-navbar hover:fancyBorder-navbar m-1" role="button" tabindex="0">
+                        <svg class="size-6" fill="none" stroke="currentColor" stroke-width="1.5"
+                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round"
+                                  stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <ul class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow" tabindex="0">
+                        <li><a class="menu__item hover:bg-none">Accueil</a></li>
+                        <li><a class="menu__item">Réserver une date</a></li>
+                        <li><a class="menu__item">Contact</a></li>
+                    </ul>
+                </div>
+                <nav class="hidden md:flex justify-end mr-4">
+                    <ul class="menu fancyBorder-navbar bg-base-100 rounded-box z-[1] p-2 shadow flex flex-row"
+                        tabindex="0">
+                        <li><a class="menu__item">Accueil</a></li>
+                        <li><a class="menu__item">Réserver une date</a></li>
+                        <li><a class="menu__item">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="w-full p-4">
+        <div class="flex align-middle section-glassmorphism m-4 md:items-center md:justify-center">
+            <div class="hero-content flex w-full m-4 flex-col md:flex-row md:justify-between md:px-8">
+                <h1 class="uppercase font-bangers text-6xl">Kosupure</h1>
+                <div class="flex flex-col justify-center gap-4">
+                    <img
+                            class="max-w-sm rounded-lg shadow-2xl fancyBorder-hero-img"
+                            src="/assets/images/anime.jpeg"/>
+                    <button class="btn btn-primary font-bangers text-xl">COMMANDER</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="w-full p-4">
+        <div class="flex align-middle section-glassmorphism m-4 items-center justify-center">
+            <img alt="Kosupure" class="h-24" src="/assets/images/kosupure.png">
+        </div>
+    </footer>
+</div>
+<script src="/src/main.ts" type="module"></script>
+</body>
+</html>
