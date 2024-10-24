@@ -9,12 +9,12 @@
 <body>
 <div class="bg-no-repeat bg-cover bg-[url('assets/images/landscape.jpeg')] min-h-screen">
     <header class="w-full p-4">
-        <div class="flex items-center section-glassmorphism m-4">
-            <div class="flex-none navbar-start">
+        <div class="flex flex-col md:flex-row items-center md:justify-normal justify-center section-glassmorphism m-4">
+            <div class="flex justify-center md:flex-none md:navbar-start">
                 <img alt="Kosupure" class="h-32" src="/assets/images/kosupure.png">
             </div>
-            <div class="flex-none navbar-end">
-                <div class="md:hidden dropdown flex justify-end mr-4">
+            <div class="md:flex-none md:navbar-end">
+                <div class="md:hidden dropdown flex justify-end md:mr-4">
                     <div class="btn fancyBorder-navbar hover:fancyBorder-navbar m-1" role="button" tabindex="0">
                         <svg class="size-6" fill="none" stroke="currentColor" stroke-width="1.5"
                              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +23,7 @@
                         </svg>
                     </div>
                     <ul class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow" tabindex="0">
-                        <li><a class="menu__item hover:bg-none">Accueil</a></li>
+                        <li><a class="menu__item">Accueil</a></li>
                         <li><a class="menu__item">Réserver une date</a></li>
                         <li><a class="menu__item">Contact</a></li>
                     </ul>
@@ -45,7 +45,7 @@
                 <h1 class="uppercase font-bangers text-6xl">Kosupure</h1>
                 <div class="flex flex-col justify-center gap-4">
                     <img
-                            class="max-w-sm rounded-lg shadow-2xl fancyBorder-hero-img"
+                            class="max-w-sm w-64 md:w-auto rounded-lg shadow-2xl fancyBorder-hero-img"
                             src="/assets/images/anime.jpeg"/>
                     <button class="btn btn-primary font-bangers text-xl">COMMANDER</button>
                 </div>

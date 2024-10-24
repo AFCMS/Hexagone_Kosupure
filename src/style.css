@@ -5,6 +5,10 @@
 @tailwind utilities;
 @tailwind variants;
 
+* {
+    @apply select-none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -30,5 +34,5 @@ body {
 }
 
 .menu__item {
-    @apply uppercase font-bangers;
+    @apply uppercase font-bangers hover:text-blue-950;
 }
